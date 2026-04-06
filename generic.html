@@ -52,7 +52,7 @@
 									zoom in a particular time window.</p>
 								</header>
 								
-							<div id='AllLocations' class='tabcontent'>
+							<div id='AllLocations' class='tabcontent' style="position:relative; padding-top: 56.25%; width:100%>
 						        <h3> Water Quality Data for All Locations</h3>
 						        <label for="allLocationsSelect">Select a parameter:</label>
 						        <select id="allLocationsSelect" onchange="updateGraph('allLocationsFrame', 'allLocationsSelect')">
@@ -82,7 +82,7 @@
 						            <option value="All%20Locations/Level%20Elevation.html">Level Elevation</option>
 						        </select>
 						    
-						        <iframe id="allLocationsFrame" style="width:100%; height:100vh;></iframe>
+						        <iframe id="allLocationsFrame" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"></iframe>
 						    </div>
 							
 								
